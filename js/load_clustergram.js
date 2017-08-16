@@ -6,7 +6,7 @@ var hzome = ini_hzome();
 
 make_clust('mult_view.json');
 
-var about_string = 'Zoom, scroll, and click buttons to interact with the clustergram. <a href="http://amp.pharm.mssm.edu/clustergrammer/help"> <i class="fa fa-question-circle" aria-hidden="true"></i> </a>';
+var about_string = 'This heatmap compares features available in several interactive heatmap tools including Clustergrammer.';
 
 function make_clust(inst_network){
 
@@ -24,10 +24,11 @@ function make_clust(inst_network){
         'matrix_update_callback':matrix_update_callback,
         'cat_update_callback': cat_update_callback,
         'sidebar_width':150,
-
         'tile_colors':['#808080','blue'],
         'row_order':'rank',
         'col_order':'rank',
+        'row_label_scale': 1.5,
+        'col_label_scale': 2,
         // 'ini_view':{'N_row_var':20}
         // 'ini_expand':true
       };

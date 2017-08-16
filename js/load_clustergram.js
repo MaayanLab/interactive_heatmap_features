@@ -24,6 +24,10 @@ function make_clust(inst_network){
         'matrix_update_callback':matrix_update_callback,
         'cat_update_callback': cat_update_callback,
         'sidebar_width':150,
+
+        'tile_colors':['#808080','blue'],
+        'row_order':'rank',
+        'col_order':'rank',
         // 'ini_view':{'N_row_var':20}
         // 'ini_expand':true
       };
@@ -41,7 +45,26 @@ function make_clust(inst_network){
 
       d3.select(cgm.params.root + ' .wait_message').remove();
 
+
+      // hack for color gradient
+      d3.selectAll('linearGradient stop').each(function(){
+
+        d3.select(this)
+          .attr('stop-color', function(){
+
+            var inst_color = d3.select(this).attr('stop-color');
+
+            if ( inst_color == 'red' ){
+              inst_color = '#808080';
+            }
+
+            return inst_color;
+
+          });
+
+      });
   });
+
 
 }
 

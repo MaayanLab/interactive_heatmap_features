@@ -1,0 +1,17 @@
+		Shinyheatmap	Clustergrammer	Java Treeview	QCanvas	FGCZ Heatmap	Degust	Heat*Seq	Morpheus	InCHlib	Heatmaply (R using plotly)	JHeatMap	MD Anderson NG-CHM
+Zoom and Pan	Feature Type: Interactivity	1	1	1	1	1	0	1	1	1	1	1	1
+Reordering	Feature Type: Interactivity	0	1	0	0	0	0	0	1	0	0	1	0
+Filtering/Dimensionality Reduction	Feature Type: Interactivity	0	1	0	0	0	1	0	1	0	0	0	0
+Animated Transitions	Feature Type: Interactivity	0	1	0	0	0	0	0	0	0	0	0	0
+Interactive Dendrogram	Feature Type: Interactivity	1	1	1	0	1	0	0	1	1	0	0	1
+Categories	Feature Type: Interactivity	0	1	0	0	0	0	0	1	0	0	1	1
+Enrichment Analysis	Feature Type: Biology-Specific	0	1	0	0	0	0	0	0	0	0	0	0
+Gene Description Lookup	Feature Type: Biology-Specific	0	1	0	0	0	0	0	0	0	0	0	0
+Jupyter Notebook Shareable Widget	Feature Type: Sharing	0	1	0	0	0	0	0	0	0	0	0	0
+Share via web app	Feature Type: Sharing	0	1	0	0	0	1	0	0	0	0	0	1
+Embeddable into Webpage	Feature Type: Sharing	1	1	0	0	0	0	0	0	1	1	1	1
+Export Static Image	Feature Type: Sharing	1	1	1	1	1	1	1	1	1	1	1	1
+Documentation	Feature Type: Usability	1	1	1	1	0	1	1	1	1	1	1	1
+Open Source	Feature Type: Usability	1	1	1	0	0	1	1	1	1	1	1	1
+Generally Applicable	Feature Type: Usability	1	1	0	0	1	0	0	1	1	1	1	0
+Adjustable Clustering Parameters	Feature Type: Usability	1	1	1	1	1	1	1	1	1	1	1	0

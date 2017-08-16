@@ -63,6 +63,10 @@ function make_clust(inst_network){
           });
 
       });
+
+      // do not display sliders if initializing in other order
+      d3.select('.col_slider_group').style('opacity',0)
+      d3.select('.row_slider_group').style('opacity',0)
   });
 
 
